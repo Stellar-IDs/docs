@@ -55,6 +55,7 @@ to an app, and for contributors who need to understand how the pieces fit togeth
 | **Introduction** | `intro` | What the suite is, what works today, what is untested |
 | **Concepts** | `concepts/overview` | DIDs, the `did:stellar` method, credentials, revocation, Soroban TTL and fees |
 | **Quick start** | `quickstart/node`, `quickstart/react` | A full DID and credential lifecycle in Node; the React sign-in flow |
+| **Guides** | `guides/react-integration` | End-to-end React integration: DID onboarding, providers, hooks, route gating, server-side sessions, and error handling |
 | **API reference** | `api/overview`, `api/contract`, `api/frontend` | The SDK surface, every contract function, and the React components and hooks |
 | **Security** | `security/basics` | Secrets, server-side verification, replay protection, what the chain exposes |
 | **Migration** | `migration/from-auth` | Moving from password / OAuth sign-in to challenge/response |
@@ -103,6 +104,7 @@ docs/
 ├── intro.md
 ├── concepts/overview.md
 ├── quickstart/        # node.md, react.md
+├── guides/            # react-integration.md
 ├── api/               # overview.md, contract.md, frontend.md
 ├── security/basics.md
 ├── migration/from-auth.md
@@ -137,7 +139,6 @@ known gap.
 
 | Issue | Idea |
 |---|---|
-| docs-1 | Full React integration guide |
 | docs-2 | Vue integration guide (using the SDK directly) |
 | docs-3 | Full-stack example: frontend + backend + contract |
 | docs-4 | Security best-practices guide |

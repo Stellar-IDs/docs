@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import config from "../docusaurus.config";
+import sidebars from "../sidebars";
 
 describe("docusaurus config", () => {
   it("defines the site title", () => {
@@ -17,5 +18,9 @@ describe("docusaurus config", () => {
   it("is served from the GitHub Pages project path", () => {
     expect(config.url).toBe("https://stellar-ids.github.io");
     expect(config.baseUrl).toBe("/docs/");
+  });
+
+  it("wires the React integration guide into the main sidebar", () => {
+    expect(JSON.stringify(sidebars.docsSidebar)).toContain("guides/react-integration");
   });
 });

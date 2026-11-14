@@ -152,4 +152,4 @@ Playwright test covers that flow. A hosted build runs at
 
 ---
 
-**Next:** [API Reference](../api/overview.md) or [Concepts](../concepts/overview.md)
+**Next:** [Full React Integration Guide](../guides/react-integration.md) · [API Reference](../api/overview.md) · [Concepts](../concepts/overview.md)
