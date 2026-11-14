@@ -15,6 +15,11 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Guides",
+      items: ["guides/react-integration"],
+    },
+    {
+      type: "category",
       label: "API Reference",
       items: ["api/api-overview", "api/api-frontend", "api/api-contract"],
     },
